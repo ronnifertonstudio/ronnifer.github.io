@@ -1,0 +1,86 @@
+/* ====== RONNIFER TONSTUDIO STYLES ====== */
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: url('assets/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #f0f0f0;
+}
+
+header {
+  text-align: center;
+  padding: 3rem 1rem 1rem;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.logo {
+  width: 280px;
+  height: auto;
+}
+
+h1 {
+  color: #C8102E;
+  margin-top: 1rem;
+  font-size: 2.2rem;
+}
+
+p {
+  color: #ddd;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  color: #f0f0f0;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #C8102E;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 4rem 2rem;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.section {
+  background: #111;
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 0 15px rgba(200, 16, 46, 0.3);
+  transition: box-shadow 0.3s;
+}
+
+.section:hover {
+  box-shadow: 0 0 25px rgba(200, 16, 46, 0.7);
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background: #0d0d0d;
+  color: #777;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #C8102E;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
