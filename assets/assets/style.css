@@ -84,3 +84,11 @@ body{
   .hero h1{font-size:26px}
 }
 
+// assets/script.js - small helpers
+document.addEventListener('click', e=>{
+  if(e.target.matches('[data-copy]')){
+    const txt = e.target.dataset.copy;
+    navigator.clipboard?.writeText(txt).then(()=> alert('In die Zwischenablage kopiert'));
+  }
+});
+
