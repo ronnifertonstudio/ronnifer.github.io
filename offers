@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Angebote – Ronnifer Tonstudio</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="header container">
+    <div class="brand"><div class="logo">R</div><div><div class="title">Ronnifer Tonstudio</div><div style="font-size:12px;color:var(--muted)">Webas</div></div></div>
+    <nav class="nav"><a href="index.html">Start</a><a href="about.html">Über uns</a><a href="offers.html">Angebote</a><a href="tips.html">Tipps</a><a href="contact.html">Kontakt</a></nav>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h2>Unsere Leistungen</h2>
+      <ul class="list">
+        <li><strong>Aufnahmepaket Standard</strong> – 3 Stunden Session inkl. Engineer</li>
+        <li><strong>Mixing</strong> – pro Song, inkl. 2 Revisionen</li>
+        <li><strong>Mastering</strong> – für Streaming und CD</li>
+        <li><strong>Podcast-Produktion</strong> – Aufnahme, Schnitt & Loudness</li>
+      </ul>
+      <p style="color:var(--muted);margin-top:10px">Preise auf Anfrage. Kontaktiere uns für ein individuelles Angebot.</p>
+    </section>
+  </main>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
